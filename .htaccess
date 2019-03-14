@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^evrak/([0-9]+)?$  api.php?action=evrak&id=$1
+RewriteRule ^evraklar/(.*)?$  api.php?action=evraklar&tag=$1
+
